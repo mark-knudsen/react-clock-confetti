@@ -1,0 +1,14 @@
+/* Clock.css */
+.clock-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set the container height to the full viewport height */
+  }
+  
+  .clock {
+    text-align: center; /* Center the text within the clock */
+    color:rgb(0, 204, 255);
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
