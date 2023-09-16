@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Confetti from 'react-confetti';
 import '../clock.css'; // Import a CSS file for styling
 
+// Code eksemple from ChatGTP!
 const Clock = () => {
   // State to hold the current time
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -24,9 +25,9 @@ const Clock = () => {
     // Update the current time every second
     const timer = setInterval(updateCurrentTime, 1000);
 
-
-
-
+    // It is here fromline 32 to 50 that the big change happened from what ChatGTP
+    // Came of result. First of the result was the same as I had already tried from
+    // the school, but after regenerating an answer this result came. - Comment by Mark
 
     // Function to handle confetti display and cleanup
     const handleConfetti = () => {
@@ -47,10 +48,7 @@ const Clock = () => {
 
     // Call handleConfetti immediately to check if confetti should be shown on component mount
     handleConfetti();
-
-
-
-
+    
     
     // Cleanup the timer when the component unmounts
     return () => {
