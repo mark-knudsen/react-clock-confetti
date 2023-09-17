@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       {/* <Clock /> */}
-      <ClockClass />
-      {/* <ClockFunctional /> */}
+      {/* <ClockClass /> */}
+      <ClockFunctional />
     </div>
   );
 }
